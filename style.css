@@ -5,10 +5,12 @@
     background-color: aqua;
     background-size: 100%;
 }
+/* creation du over sur le body pour changer l'arrriere plan*/
 .body:hover{
     background-image: url("bday-662.gif");
     background-size: 100%;
 }
+/*C'est le contenu de la page*/
 .page{
     position: relative;
     height: 400px;
@@ -16,6 +18,7 @@
     display: grid;
     justify-content: center;
 }
+/*Le titre*/
 .titre{
     border: 1px solid black;
     max-height: 70px;
@@ -25,7 +28,8 @@
     padding-top: 16px;
     padding-bottom: px;
 }
-p.p1, p.p2, p.p3{
+/* Les paragraphe d'une meme structure*/
+.p1, .p2, .p3{
     border: 1px solid black;
     max-height: 50px;
     color: white;
@@ -33,6 +37,7 @@ p.p1, p.p2, p.p3{
     padding-bottom: px;
     text-align: center;
 }
+/*Background-color des paragraphe*/
 .p1{
     background-color: blueviolet;
 }
