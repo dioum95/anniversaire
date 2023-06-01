@@ -1,0 +1,44 @@
+.body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background-color: aqua;
+    background-size: 100%;
+}
+.body:hover{
+    background-image: url("bday-662.gif");
+    background-size: 100%;
+}
+.page{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.titre{
+    border: 1px solid black;
+    max-height: 70px;
+    width: 600px;
+    text-align: center;
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: px;
+}
+p.p1, p.p2, p.p3{
+    border: 1px solid black;
+    max-height: 50px;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: px;
+    text-align: center;
+}
+.p1{
+    background-color: blueviolet;
+}
+.p2{
+    background-color: greenyellow;
+}
+.p3{
+    background-color: deepskyblue;
+}
